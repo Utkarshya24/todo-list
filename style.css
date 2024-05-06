@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+body {
+  background: linear-gradient(270deg, blue, red);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+  width: 100%;
+}
+.container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  top: 100px;
+  width: 400px;
+  border-radius: 30px;
+  height: auto;
+  color: black;
+  background-color: antiquewhite;
+  border: none;
+  outline: none;
+  box-shadow: 4rem solid grey;
+}
+.heading {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+.search-box{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.search-box input{
+  width: auto;
+  height: auto;
+  border: none;
+  outline: none;
+  background-color: none;
+  color: white;
+  background: none;
+  border-bottom: .2rem solid white;
+}
+.search-box i {
+  width: auto;
+  height: auto;
+  color: white;
+  margin-left: 15px;
+}
+.tasks {
+  font-weight: 500;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.tasks li {
+  list-style-type:none;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  color: rgb(1, 241, 93);
+}
+.cross {
+  color: rgb(255, 0, 0);
+  text-align: right;
+  justify-content: center;
+  align-items: center;
+  margin-left:140px;
+}
+.cross input {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: none;
+  color: orange;
+}
+.mark {
+  margin-right: 5px;
+}
+/**
+.tasks i::before {
+  background-image: url(<i class="fa-regular fa-circle"></i>);
+}
+.tasks  i ::after{
+  background-image: url(<i class="fa-solid fa-circle-check"></i>);
+}
+**/
+ul li {
+  margin: 5px;
+  display: flex;
+}
+#typeTask  input {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: none;
+}
+#add-btn {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(1, 241, 93);
+  color: white;
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  margin: 10px;
+  font-weight: bolder;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+#deleteAll-btn {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(241, 17, 1);
+  color: white;
+  width: 150px;
+  height: 25px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  margin: 10px;
+  font-weight: bolder;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
